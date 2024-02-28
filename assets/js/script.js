@@ -58,7 +58,7 @@ overlay.addEventListener("click", testimonialsModalFunc);
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
@@ -113,26 +113,86 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 }
 
+// //SKILLS & LANGUAGES
+
+// // custom select variables
+// const select2 = document.querySelector("[data-selectt]");
+// const selectItems2 = document.querySelectorAll("[data-selectt-item]");
+// const selectValue2 = document.querySelector("[data-selectt-value]");
+// const filterBtn2 = document.querySelectorAll("[data-filter-btnn]");
+
+// select.addEventListener("click", function () { elementToggleFunc(this); });
+
+// // add event in all select items
+// for (let i = 0; i < selectItems2.length; i++) {
+//   selectItems2[i].addEventListener("click", function () {
+
+//     let selectedValue2 = this.innerText.toLowerCase();
+//     selectValue2.innerText = this.innerText;
+//     elementToggleFunc(select);
+//     filterFunc(selectedValue2);
+
+//   });
+// }
+
+// // filter variables
+// const filterItems2 = document.querySelectorAll("[data-filterr-item]");
+
+// const filterFunc2 = function (selectedValue2) {
+
+//   for (let i = 0; i < filterItems2.length; i++) {
+
+//     if (selectedValue2 === "all") {
+//       filterItems2[i].classList.add("active");
+//     } else if (selectedValue2 === filterItems2[i].dataset.category) {
+//       filterItems2[i].classList.add("active");
+//     } else {
+//       filterItems2[i].classList.remove("active");
+//     }
+
+//   }
+
+// }
+
+// // add event in all filter button items for large screen
+// let lastClickedBtn2 = filterBtn2[0];
+
+// for (let i = 0; i < filterBtn2.length; i++) {
+
+//   filterBtn2[i].addEventListener("click", function () {
+
+//     let selectedValue2 = this.innerText.toLowerCase();
+//     selectValue2.innerText = this.innerText;
+//     filterFunc(selectedValue2);
+
+//     lastClickedBtn2.classList.remove("active");
+//     this.classList.add("active");
+//     lastClickedBtn2 = this;
+
+//   });
+
+// }
 
 
-// contact form variables
-const form = document.querySelector("[data-form]");
-const formInputs = document.querySelectorAll("[data-form-input]");
-const formBtn = document.querySelector("[data-form-btn]");
 
-// add event to all form input field
-for (let i = 0; i < formInputs.length; i++) {
-  formInputs[i].addEventListener("input", function () {
+// // contact form variables
+// const form = document.querySelector("[data-form]");
+// const formInputs = document.querySelectorAll("[data-form-input]");
+// const formBtn = document.querySelector("[data-form-btn]");
 
-    // check form validation
-    if (form.checkValidity()) {
-      formBtn.removeAttribute("disabled");
-    } else {
-      formBtn.setAttribute("disabled", "");
-    }
+// // add event to all form input field
+// for (let i = 0; i < formInputs.length; i++) {
+//   formInputs[i].addEventListener("input", function () {
 
-  });
-}
+//     // check form validation
+//     if (form.checkValidity()) {
+//       formBtn.removeAttribute("disabled");
+//     } else {
+//       formBtn.setAttribute("disabled", "");
+//     }
+
+//   });
+// }
 
 
 

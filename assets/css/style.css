@@ -3,13 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -1039,6 +1032,31 @@ main {
 }
 
 
+.portfolio .separator-skills{
+  width: 100%;
+  height: 2px;
+  background: var(--jet);
+  margin: 16px 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+
+/*-----------------------------------*\
+  #Portfolio SKILLS
+\*-----------------------------------*/
+
+.project-list .skills-img img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  transition: var(--transition-1);
+}
+
+.project-list .project-item h3 {
+  padding-top: 3px;
+}
 
 
 
@@ -1378,6 +1396,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
   }
+
 
 
 
