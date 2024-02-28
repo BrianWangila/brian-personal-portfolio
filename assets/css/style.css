@@ -354,6 +354,18 @@ main {
   border-radius: 8px;
 }
 
+.info-content .bold {
+  margin-top: 10px;
+}
+
+.info-content .resume {
+  margin-top: 10px;
+  background-color: rgb(165, 109, 6);
+  color: whitesmoke;
+  font-size: 8px;
+  padding: 5px;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
