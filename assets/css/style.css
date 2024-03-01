@@ -274,7 +274,10 @@ article.active {
   box-shadow: var(--shadow-2);
   cursor: pointer;
   z-index: 1;
+  
 }
+
+
 
 .content-card::before {
   content: "";
@@ -283,6 +286,7 @@ article.active {
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
+ 
 }
 
 
@@ -609,7 +613,7 @@ main {
   line-clamp: 4;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
@@ -1465,6 +1469,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   .content-card {
     padding: 30px;
     padding-top: 25px;
+  }
+
+  .testimonials-item .content-card {
+    /* border: 1px solid red; */
+    min-height: 200px;
+  }
+
+  .testimonials-item .testimonials-text {
+    /* border: 1px solid rgb(0, 255, 76); */
+    min-height: 100px;
   }
 
   .testimonials-avatar-box {
