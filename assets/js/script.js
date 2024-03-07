@@ -219,3 +219,22 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   var toggleButtons = document.querySelectorAll('.description-toggle');
+
+//   toggleButtons.forEach(function(button) {
+//       button.addEventListener('click', function() {
+//           var description = this.closest('.project-item').querySelector('.description');
+//           description.classList.toggle('active');
+//       });
+//   });
+// });
+
+
+// $(document).ready(function() {
+//   $('.description-toggle').click(function() {
+//       $(this).closest('.project-item').find('.description').toggleClass('active');
+//   });
+// });

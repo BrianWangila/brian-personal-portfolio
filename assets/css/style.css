@@ -1038,7 +1038,7 @@ main {
 .project-title {
   color: var(--white-2);
   font-size: var(--fs-5);
-  font-weight: var(--fw-400);
+  font-weight: var(--fw-600);
   text-transform: capitalize;
   line-height: 1.3;
 }
@@ -1058,6 +1058,55 @@ main {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+.code-link {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  color: gray;
+  font-size: 15px;
+}
+
+.project-item > a:hover {
+  margin: 5px;
+  font-size: 18px;
+  color: rgb(202, 199, 199);
+}
+
+.code-link .code-logo {
+  margin-right: 3px;
+
+}
+
+.technologies .tech-logo {
+  display: flex;
+
+}
+
+
+.tech-logo-item {
+  width: 50px;
+  height: 40px;
+  color: lightgray;
+  margin: 5px 3px;
+}
+
+
+.tech-logo-item span {
+  font-size: 11px;
+  font-weight: light;
+
+}
+
+
+.project-description .description {
+  /* display: none; */
+  color: lightgray;
+  font-size: 10px;
+  margin: 5px;
+}
+
+
 
 
 
@@ -1090,6 +1139,7 @@ main {
 
 .project-list .project-item h3 {
   padding-top: 3px;
+  padding-bottom: 5px;
 }
 
 
