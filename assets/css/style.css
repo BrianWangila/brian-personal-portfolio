@@ -1065,11 +1065,27 @@ main {
   #Portfolio SKILLS
 \*-----------------------------------*/
 
+.project-list .skills-item  {
+  /* border: 1px solid yellow; */
+  width: 100%;
+  height: 100%;
+}
+
+.project-list .skills-img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  transition: var(--transition-1);
+  /* border: 1px solid green; */
+}
+
 .project-list .skills-img img {
   width: 100%;
   height: 100%;
   object-fit:contain;
   transition: var(--transition-1);
+  /* border: 1px solid red; */
+
 }
 
 .project-list .project-item h3 {
@@ -1301,6 +1317,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
+/**
+ * responsive smaller than 450px screen
+ */
+
+@media (max-width: 450px) {
+
+  .skill-list {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+
+}
 
 
 

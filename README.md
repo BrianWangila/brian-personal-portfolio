@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/BrianWangila/brian-personal-portfolio)
 ![GitHub stars](https://img.shields.io/github/stars/BrianWangila/brian-personal-portfolio?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/BrianWangila/brian-personal-portfolio?style=social)
-<!-- [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_) -->
+[![Twitter Follow](https://img.shields.io/twitter/follow/ravvy_b?style=social)](https://twitter.com/intent/follow?screen_name=ravvy_b)
 
 This is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
